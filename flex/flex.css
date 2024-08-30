@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    text-transform: capitalize;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+   
+
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(98, 255, 0);
+}
+#box3{
+    background-color: rgb(13, 0, 255);
+}
+#box4{
+    background-color: rgb(255, 0, 238);
+}
+#box5{
+    background-color: rgb(255, 0, 0);
+}

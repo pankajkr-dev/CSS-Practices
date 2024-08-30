@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazon-Logo-Black.jpg");
+    height: 50px;
+    width: 100%;
+    background-size:cover;
+}
+.border{
+    border:1px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border:2px solid white;
+}
+.add-icon{
+    display: flex;
+    text-align: center;
+}
+.deliverto{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.india{
+margin-left: 3px;
+}
+.navsearch{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.navsearch:hover{
+    border:2px  solid orange;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border:none;
+
+
+}
+.searchicon{
+    background-color: #f3a723fd;
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color:#0f1111;
+}
+span{
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+.nav-line2{
+    color:#ffffff;
+    font: size 0.85rem;
+    font-weight: 700;
+}
+.navcart i{
+    font-size: 35px;
+}
+.navcart{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color: #232f3e;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panelops p{
+    display:inline;  
+    margin-left: 20px;
+}
+.panelops{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+font-size: 0.9rem;
+font-weight: 700;
+}
+
+/**Hero Section**/
+
+.hero-section{
+    background-image: url("page1.jpg");
+    background-size:cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+.hero-message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 80px;
+}
+.hero-message a{
+    text-decoration: none;
+    color:#007185;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(201, 198, 192);
+}
+.box{
+height: 350px;
+background-color: white;
+width: 23%;
+margin-top: 15px;
+padding: 20px 0px 15px;
+text-align: center;
+}
+.box1-img{
+    background-image: url("box1img.jpg");
+    background-size:cover;
+    height: 300px;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.box2-img{
+    background-image: url("box2img.jpg");
+    background-size:cover;
+    height: 300px;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.box3-img{
+    background-image: url("box3img.jpg");
+    background-size:cover;
+    height: 300px;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.box4-img{
+    background-image: url("boximg4.jpeg");
+    background-size:cover;
+    height: 300px;
+    margin-left:1rem;
+    margin-right:1rem;
+}
